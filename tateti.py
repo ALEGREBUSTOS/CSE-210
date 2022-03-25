@@ -6,7 +6,7 @@ def main():
     choose = int(input("In the bellow table choose one number between 0 at 8: "))
     X_or_O = input("Enter X or O: ")
     while not (has_winner(position) or table(position,choose,X_or_O)):
-        choose = int(input("In the bellow table choose one number between 0 at 8: "))
+        choose = int(input("choose one number between 0 at 8, in the bellow table: "))
         X_or_O = input("Enter X or O: ")
         table(position,choose,X_or_O)
     
